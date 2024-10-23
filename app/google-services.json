@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "839554057288",
+    "firebase_url": "https://dopefits99-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dopefits99",
+    "storage_bucket": "dopefits99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839554057288:android:e87f382f2a390edebb847d",
+        "android_client_info": {
+          "package_name": "com.example.dopefits"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVhw07Dx062lpWBlg9P3hdzThlLMl0VKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839554057288:android:3bd8d440084af840bb847d",
+        "android_client_info": {
+          "package_name": "com.example.shoppingcart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVhw07Dx062lpWBlg9P3hdzThlLMl0VKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
