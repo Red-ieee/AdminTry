@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="300dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_profile"
+        android:drawablePadding="8dp"
+        android:backgroundTint="@color/darkgreen"
+        android:text="My Account"
+        android:textColor="@color/white"
+        android:padding="12dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_notification"
+        android:drawablePadding="8dp"
+        android:backgroundTint="@color/darkgreen"
+        android:text="Notification"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_message"
+        android:drawablePadding="8dp"
+        android:backgroundTint="@color/darkgreen"
+        android:text="Contact Support"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Settings Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_setting"
+        android:drawablePadding="8dp"
+        android:backgroundTint="@color/darkgreen"
+        android:text="Settings"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Log Out Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_logout"
+        android:drawablePadding="8dp"
+        android:backgroundTint="@color/darkgreen"
+        android:text="Log Out"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

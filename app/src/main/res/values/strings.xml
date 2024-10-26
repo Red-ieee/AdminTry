@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">AdminTry</string>
+    <string name="terms_text">
+        <b>1. Acceptance of Terms</b>
+\n        By downloading, accessing, or using DopefitPH, you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, you may not use the app.
+\n
+\n
+        <b>2. User Eligibility</b>
+\n       You must be at least 18 years old to use this app. If you are under 18, parental or legal guardian consent is required. The app is available to users worldwide unless restricted by local laws.
+\n
+\n
+        <b>3. User Accounts</b>
+\n       You are responsible for maintaining the confidentiality of your account information. You agree to provide accurate and complete information when creating an account and to update it as necessary.
+\n
+\n
+        <b>4. Augmented Reality Features</b>
+\n       DopefitPH includes AR technology to enhance user experience. The AR features, such as body overlay for apparel fitting, are for visualization purposes only and may not reflect the exact fit or appearance of the actual product.
+\n
+\n
+        <b>5. Ordering Process</b>
+\n       Orders made through DopefitPH are subject to stock availability, size accuracy, and processing times. After placing an order, you will receive a confirmation email or notification. DopefitPH reserves the right to cancel orders if there are pricing errors, stock issues, or other concerns.
+\n
+\n
+        <b>6. Payments</b>
+\n       All payments for orders must be made through the available payment methods within the app. DopefitPH is not responsible for any payment issues arising from third-party payment processors.
+\n
+\n
+        <b>7. Shipping and Delivery</b>
+\n       DopefitPH will ship orders to the address provided during checkout. Estimated delivery times may vary depending on your location. Shipping delays due to unforeseen circumstances are not the responsibility of DopefitPH.
+\n
+\n
+        <b>8. Returns and Exchanges</b>
+\n       Returns and exchanges are allowed within 15 days of receiving your order, provided that the items are in their original condition with tags attached. AR visualization discrepancies are not valid grounds for return.
+\n
+\n
+        <b>9. Admin Access and Responsibilities</b>
+\n       Admins have access to manage inventory, approve orders, and handle customer data within the app. Misuse of admin privileges, such as unauthorized access to personal information, will result in the suspension or termination of admin rights.
+\n
+\n
+        <b>10. Intellectual Property</b>
+\n       All app content, including logos, graphics, product images, and AR technology, is owned by DopefitPH or licensed for use within the app. Users and admins are not allowed to copy, distribute, or modify any content without explicit permission.
+\n
+\n
+        <b>11. Limitation of Liability</b>
+\n       DopefitPH is not responsible for any damage, loss, or injury resulting from the use of the app, including but not limited to inaccurate AR features, ordering errors, or data breaches.
+\n
+\n
+        <b>12. Changes to Terms</b>
+\n       DopefitPH reserves the right to change these Terms and Conditions at any time. Users will be notified of any significant changes through the app or via email.
+\n
+\n
+        <b>13. Contact Information</b>
+\n       For questions or concerns regarding these Terms, please contact us at yaunajaym4@gmail.com
+\n
+\n
+        </string>
+</resources>
