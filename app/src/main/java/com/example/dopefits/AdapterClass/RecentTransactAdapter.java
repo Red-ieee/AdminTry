@@ -9,50 +9,48 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.dopefits.DataModel.RecentTransact;
+import com.example.dopefits.DataModel.orders;
 import com.example.dopefits.R;
 
 import java.util.List;
 
 public class RecentTransactAdapter extends RecyclerView.Adapter<RecentTransactAdapter.ViewHolder> {
-    private Context context;
-    private List<RecentTransact> recentTransacts;
+    private List<RecentTransact> transactionList;
 
-    public RecentTransactAdapter (Context context, List<RecentTransact> recentTransacts) {
-        this.context = context;
-        this.recentTransacts = recentTransacts;
+    public RecentTransactAdapter(List<RecentTransact> transactionList) {
+        this.transactionList = transactionList;
     }
 
     @NonNull
     @Override
-    public RecentTransactAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.recent_transact_item, parent, false);
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recent_transact_item, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecentTransactAdapter.ViewHolder holder, int position) {
-        RecentTransact recentTransact = recentTransacts.get(position);
-        holder.tvCustomerName.setText(recentTransact.getCustomerName());
-        holder.tvItemName.setText(recentTransact.getItemName());
-        holder.tvItemPrice.setText(String.valueOf(recentTransact.getPrice()));
-        holder.tvQuantity.setText(String.valueOf(recentTransact.getQty())+"x");
-
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        RecentTransact transaction = transactionList.get(position);
+        holder.tvCustomerName.setText(transaction.getCustomerName());
+        holder.tvItemName.setText(transaction.getItemName());
+        holder.tvItemPrice.setText(transaction.getPrice());
+        holder.tvPayMethod.setText(transaction.getPaymentType());
     }
 
     @Override
     public int getItemCount() {
-        return recentTransacts.size();
+        return transactionList.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView tvCustomerName, tvItemName, tvItemPrice, tvQuantity;
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView tvCustomerName, tvItemName, tvItemPrice, tvPayMethod;
 
-        public ViewHolder(View view) {
-            super(view);
-            tvCustomerName = view.findViewById(R.id.tvCustomerName);
-            tvItemName = view.findViewById(R.id.tvItemName);
-            tvItemPrice = view.findViewById(R.id.tvItemPrice);
-            tvQuantity = view.findViewById(R.id.tvQuantity);
+        public ViewHolder(View itemView) {
+            super(itemView);
+            tvCustomerName = itemView.findViewById(R.id.tvCustomerName);
+            tvItemName = itemView.findViewById(R.id.tvItemName);
+            tvItemPrice = itemView.findViewById(R.id.tvItemPrice);
+            tvPayMethod = itemView.findViewById(R.id.tvPayMethod);
         }
     }
 }

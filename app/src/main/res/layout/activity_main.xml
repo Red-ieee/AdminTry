@@ -22,16 +22,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/sideNavMenu"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="20dp"
-            android:contentDescription="Menu"
-            android:src="@drawable/ic_menu"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"
@@ -47,53 +37,5 @@
             app:menu="@menu/bot_nav" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <LinearLayout
-        android:id="@+id/nav_view"
-        android:layout_width="230dp"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/lightgreen"
-        android:layout_gravity="start">
 
-        <TextView
-            android:id="@+id/menuAR"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginStart="10dp"
-            android:padding="16dp"
-            android:text="Augmented Reality"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/menuDataPolicy"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:padding="16dp"
-            android:text="Data Policy"
-            android:textSize="16sp"
-            android:textColor="@color/white"  />
-
-        <TextView
-            android:id="@+id/menuTerms"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:padding="16dp"
-            android:text="Terms of Service"
-            android:textSize="16sp"
-            android:textColor="@color/white"  />
-
-        <TextView
-            android:id="@+id/menuAbout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:padding="16dp"
-            android:text="About Dopefits"
-            android:textSize="16sp"
-            android:textColor="@color/white"  />
-    </LinearLayout>
 </androidx.drawerlayout.widget.DrawerLayout>
